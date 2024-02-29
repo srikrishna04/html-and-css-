@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    color: #0033ff;
+    font-size: 21px;
+}
+p{
+    color: #ff00cc;
+}
+h1{
+    font-size:70px;
+    color: lightseagreen ;
+}
+div{
+    background: rgb(226, 226, 209);
+    width:300px;
+    /* height:300px; */
+}
+span{
+    color: #ff5500;
+    font-size: 40px;
+}
+.intro{
+    font-size: 30px;
+}
+.top{
+    background: #00ff55;
+}
+#once{
+    background-color: #0000ff;
+    color: #ffff00
+}
+.box{
+    background: #ffff00;
+    width: 500px;
+    margin: 100px;
+    /* border-width: 5px;
+    border-color: rgb(191, 37, 205);
+    border-style: solid; */
+    border: 15px groove red;
+    border-left: 15px groove green;
+    /* padding: 100px; */
+    padding: 10px 30px 200px 100px;
+}
+.image{
+    margin: 100px;
+    padding: 200px 100px;
+    background-image: url(../img/Rabbit.jpeg);
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: bottom 20% left -12px;
+    background-repeat: no-repeat;
+}
+.select{
+    margin-top: opx;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 20px;
+    /* font-style: italic; */
+    font-style: oblique;
+    font-weight: lighter;
+    text-align: left;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-transform: capitalize;
+    color: firebrick;
+}
+a:link{
+    color: grey;
+}
+a:visited{
+    color: #ff00cc;
+}
+a:hover,
+a:focus{
+    color: yellow;
+    /* font-size: 25px;
+    font-family: sans-serif; */
+} 
+a:active{
+    color: blue;
+}
+.specifity{
+    background-color: rgb(32, 182, 241);
+    padding: 50px;
+    color: white;
+}
+.specifity a{
+    color: palegoldenrod;
+}
+.specifity a:hover{
+    color: rgb(79, 26, 211);
+}
+.important-link,
+.specifity .important-link{
+    color: orange;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-type: circle;
+    /* list-style-image: url(../img/list-icon.png); */
+    background-color: rgb(228, 48, 78);
+    padding: 50px;
+}
+ul li{
+    background: greenyellow;
+    margin: 5px;
+}
+ol{
+    background: lemonchiffon;
+    padding:10px;
+    list-style-position: inside;
+}
+ol li{
+    background-color: #ff00cc;
+    margin-bottom: 10px;
+    color: white;
+}
+.lists{
+    text-align: center;
+}
