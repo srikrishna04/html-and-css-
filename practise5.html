@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: right;
+        align-items:center;
+        /* align-content: flex-end; */
+        list-style: none;
+    }
+    .box1{
+        height: 150px;
+        width: 250px;
+        background-color: red;
+        order: 4;
+        /* align-self:flex-end; */
+        flex-grow: 1;
+
+    }
+    .box2{
+        height: 150px;
+        width: 250px;
+        background-color: rgba(15, 208, 80, 0.87);
+        order: 1;
+        flex-grow: 11;
+        /* flex-shrink: 21; */
+    }
+    .box3{
+        height: 150px;
+        width: 250px;
+        background-color: rgb(11, 8, 198);
+        flex-grow: 3;
+    }
+    .box4{
+        height: 150px;
+        width: 250px;
+        background-color: rgb(185, 232, 31);
+        flex-grow: 3;
+    }
+   </style>
+
+</head>
+<body>
+    <div class="box">
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+    <div class="box4">box4</div>
+    </div>
+</body>
+</html>
