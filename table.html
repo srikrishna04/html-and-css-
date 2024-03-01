@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                font-family: fantacy;
+                /* border-collapse: collapse; */
+                width: 80%;
+                border:5px solid black;
+                border-spacing: 20px;
+                background-color: lightyellow;
+            }
+            table,td,th{
+                border-radius: 30px;
+            }
+            th,td{
+                border: 5px solid purple ;
+                border-bottom:5px solid rgb(38, 0, 255);
+                text-align: left;
+                padding: 8px;
+                border-style: dotted;
+            }
+            tr:nth-child(even){
+                background-color:greenyellow;
+            }
+            tr:hover{background-color: red;}
+            caption{
+                font-size:30px;
+                color: tomato;
+                font-family:monospace;
+                font-style:italic;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <!-- <colgroup>
+                <col span="2" style= "background-color": yellow>
+                <col span="1" style="background-color":pink>
+                <col span="1" style="visibility:collapse">
+            </colgroup> -->
+            <caption>students list</caption>
+            <tr>
+                <th style="width:30%" colspan="2">name</th>
+                <th>id</th>
+                <th>phone</th>
+                <th>city</th>
+            </tr>
+            <tr>
+                <td>sri</td>
+                <td>charan</td>
+                <td>502</td>
+                <td>9876548742</td>
+                <td>siddipet</td>
+            </tr>
+            <tr style="height:200px">
+                <td>sri</td>
+                <td>krishna</td>
+                <td>508</td>
+                <td rowspan="2">8099809918</td>
+                <td>karimnagar</td>
+            </tr>
+            <tr>
+                <td>sri</td>
+                <td>ram</td>
+                <td>303</td>
+                <td>hyderabad</td>
+            </tr>
+        </table>
+    </body>
+</html>
