@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 50vh;
+        }
+        .box{
+            border: 3px solid black;
+            display: inline-block;
+            /* transform: translate(120px,50px); */
+            /* transform: translate(120px,50%); */
+            /* transform: rotate(0.5turn); */
+            /* transform: translate(134px,56px) rotate(0.5turn); */
+              /* transform: translate(134px,56px) rotate(0.25turn);
+             */
+             /* transform: translate(134px,56px) rotate(45deg);
+             transform-origin: 0; */
+            /* margin-top: 32px;
+             transform: scale(1,4); */
+             /* transform: scaleX(1); 
+             transform: scaleY(2); */
+             /* transform-origin: 0; */
+             /* transform: skew(144deg,6deg); */
+             /* transform: skew(100deg,0); */
+             /* transform: skew(0,100deg); */
+             /* transform: matrix(scaleX(),skewx(),skewY(),scaleX(),translateX(),translateY() ); */
+/* transform: rotateX(45deg);
+transform: rotateY(45deg);
+transform: rotateZ(45deg); */
+        }
+        .myimage{
+            width: 146px;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+        }
+        img:hover{
+            width: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio adipisci deserunt unde consequatur asperiores deleniti? Repellendus quaerat quibusdam aspernatur, recusandae dolorum natus ullam.
+        </div>
+        <img id="myimage" src="../img/gt.jpeg" alt="" >
+        <button id="btn">Toggle</button>
+    </div>
+    <script>
+        myimage.style.width = '146px';
+        btn.addEventListener("click",()=>{
+            if(myimage.style.width === '546px'){
+                myimage.style.width = '146px';
+            }
+            else if(myimage.style.width === '146px'){
+                myimage.style.width = '546px';
+            }
+        })
+    </script>
+    
+</body>
+</html>
